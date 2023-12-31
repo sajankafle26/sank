@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --brand: #ffa600ea;
+    --w: #fff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.logo span {
+    color: var(--brand);
+}
+
+nav span {
+    font-size: 33px;
+}
+
+
+nav li a {
+    display: block;
+    background: var(--brand);
+    color: white;
+    padding: 15px;
+}
+.w-100
+{
+    width: 100%;
+}
+.b-left
+{
+    padding: 20px;
+    flex-basis: 48%;
+}
+.b-left h1 
+{
+    font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px;
+padding: 20px 0;
+}
+.btn 
+{
+    background: var(--brand);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+}
+.counter 
+{
+    background: var(--brand);
+    color: var(--w);
+    padding: 30px;
+}
+.client
+{
+    background: var(--brand);
+    color: var(--w);
+    padding: 30px;
+    text-align: center;
+}
+.client-white
+{
+    background: var(--w);
+    padding: 40px;
+   margin: 20px 0;
+    color: #000;
+}
+.client-white p
+{
+    max-width: 60%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.client-white h5 
+{
+    color: var(--brand);
+}
+.faq
+{
+    padding: 30px 0;
+}
+.faq h2 
+{
+    text-align: center;
+    padding: 30px 0;
+}
+.faq h4 
+{
+    padding: 10px 0;
+    font-weight: bold;
+}
+.faq p 
+{
+    padding: 10px 0;
+}
+footer
+{
+    padding: 40px;
+    background: var(--brand);
+    color: var(--w);
+    text-align: center;
+}
+.flex1 
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 0;
+}
+.copyright
+{
+    font-size: 12px;
+}
+@media (min-width: 480px) {
+    nav span {
+        display: none;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+    nav li a 
+    {
+        background: white;
+        color: var(--brand);
+    }
+    
+
+}
